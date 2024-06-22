@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>우산 대여 서비스 기능 데모</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: url('홈페이지용 1.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+        }
+        .content {
+            text-align: left;
+            padding: 40px;
+            background-color: rgba(0, 0, 0, 0.7); /* 반투명 배경 */
+            border-radius: 10px;
+            max-width: 800px;
+            margin: 20px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+        }
+        .content img {
+            display: block;
+            margin: 0 auto 20px auto; /* 이미지 아래에 여백 추가 */
+            max-width: 50%; /* 이미지의 최대 너비를 50%로 설정 */
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+        }
+        .content h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .content h2 {
+            font-size: 1.8em;
+            margin-bottom: 10px;
+            color: #FFD700; /* 노란색 */
+        }
+        .content h3 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+            color: #FFD700; /* 노란색 */
+        }
+        .content p {
+            font-size: 1.3em;
+            margin-bottom: 15px;
+            line-height: 1.8;
+        }
+        .content ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .content ul li {
+            margin-bottom: 15px;
+        }
+        .highlight {
+            font-weight: bold;
+            color: #FFD700; 
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <img src="우산 대여 기기.jpg" alt="우산 대여 기기 이미지">
+        <h2>우산 대여 및 반납 시스템 기능 데모</h2>
+        
+        <h3>대여 시</h3>
+        <ul>
+            <li><span class="highlight">1. 회원가입:</span> 웹사이트 또는 어플리케이션을 통해 회원가입을 진행합니다. </li>
+            <li><span class="highlight">2. 회원정보 입력 :</span> QR코드를 찍거나 또는 회원정보를 기입 후 대여칸을 눌러 대여 의사를 표현합니다.</li>
+            <li><span class="highlight">3. 우산 대여:</span> 우산 대여 기기의 오른편에서 우산을 대여합니다. 우산 손잡이를 잡아당겨서 우산을 대여받습니다.</li>
+        </ul>
+        
+        <h3>반납 시</h3>
+        <ul>
+            <li><span class="highlight">1. 회원정보 입력 :</span> QR코드를 찍거나 또는 회원정보를 기입 후 반납칸을 눌러 반납 의사를 표현합니다.</li>
+            <li><span class="highlight">2. 우산 반납:</span> 우산 대여 기기 왼편의 우산 반납 부분에 우산 손잡이가 위로 올라가도록 우산을 집어넣습니다. 우산 대여 기기에서 AI 이미지 판별을 통해 파손, 오염 여부를 체크합니다.</li>
+            <li><span class="highlight">3. 반납 확인:</span> 우산 대여 기기에서 우산의 오염, 파손 여부를 파악합니다. 이상이 없을 경우, 정상적으로 반납이 완료되었다고 표시됩니다. 만약 오염이나 파손이 심해 재사용이 불가능할 경우, 추가 결제를 요구하고 기기 옆의 파손 우산 칸에 우산을 넣도록 안내합니다.</li>
+        </ul>
+        <h3>우산 대여 기기의 추가 기능</h3>
+        <ul>
+            <li><span class="highlight">1. 멸균 시스템:</span> 기기 내에서 멸균 과정을 거쳐 재사용에 거리낌을 줄여줍니다. </li>
+            <li><span class="highlight">2. 자동 이동 시스템:</span> 반납칸에서 대여칸까지 이어지는 레일을 통해 자동 또는 반자동으로 우산의 위치를 옮깁니다.</li>
+            <li><span class="highlight">3. 빗물 처리:</span> 기기 내부에서 떨어지는 빗방울은 아래쪽에 모이게 하여 호스를 통해 바깥으로 배출하거나 통에 모이게 하여 비워줍니다.</li>
+        </ul>
+    </div>
+</body>
+</html>
